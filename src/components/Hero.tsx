@@ -148,37 +148,64 @@ const Hero = () => {
                 </video>
               </a>
               
-              {/* Placeholder 3 - Video sitio_03.mp4 */}
+              {/* Video 3 - sitio_03.mp4 */}
               <a 
-                href="https://vegalfredo.github.io/Curso-de-Verano-ZEFFATA/" 
+                href="https://versus-card-app.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="carousel-item absolute bg-gradient-to-b from-green-600 to-emerald-600 rounded-xl shadow-2xl border-2 border-white/20 text-center flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-300 block" 
+                className="carousel-item absolute rounded-xl shadow-2xl border-2 border-white/20 cursor-pointer hover:scale-110 transition-transform duration-300 block overflow-hidden" 
                 style={{animationDelay: '-3.4s'}}
               >
-                <div className="text-white font-bold text-sm">sitio_03.mp4</div>
+                <video 
+                  className="w-full h-full object-cover"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                >
+                  <source src="/sitio_03.mp4" type="video/mp4" />
+                  Tu navegador no soporta el elemento de video.
+                </video>
               </a>
               
-              {/* Placeholder 4 - Video sitio_04.mp4 */}
+              {/* Video 4 - sitio_04.MP4 */}
               <a 
-                href="https://vegalfredo.github.io/Curso-de-Verano-ZEFFATA/" 
+                href="https://vegalfredo.github.io/Leyendas_Bernal/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="carousel-item absolute bg-gradient-to-b from-orange-600 to-red-600 rounded-xl shadow-2xl border-2 border-white/20 text-center flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-300 block" 
+                className="carousel-item absolute rounded-xl shadow-2xl border-2 border-white/20 cursor-pointer hover:scale-110 transition-transform duration-300 block overflow-hidden" 
                 style={{animationDelay: '-5.1s'}}
               >
-                <div className="text-white font-bold text-sm">sitio_04.mp4</div>
+                <video 
+                  className="w-full h-full object-cover"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                >
+                  <source src="/sitio_04.MP4" type="video/mp4" />
+                  Tu navegador no soporta el elemento de video.
+                </video>
               </a>
               
-              {/* Placeholder 5 - Video sitio_05.mp4 */}
+              {/* Video 5 - sitio_05 */}
               <a 
-                href="https://vegalfredo.github.io/Curso-de-Verano-ZEFFATA/" 
+                href="https://vegalfredo.github.io/MDEI/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="carousel-item absolute bg-gradient-to-b from-indigo-600 to-blue-600 rounded-xl shadow-2xl border-2 border-white/20 text-center flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-300 block" 
+                className="carousel-item absolute rounded-xl shadow-2xl border-2 border-white/20 cursor-pointer hover:scale-110 transition-transform duration-300 block overflow-hidden" 
                 style={{animationDelay: '-6.8s'}}
               >
-                <div className="text-white font-bold text-sm">sitio_05.mp4</div>
+                <video 
+                  className="w-full h-full object-cover"
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline
+                >
+                  <source src="/sitio_05.mp4" type="video/mp4" />
+                  Tu navegador no soporta el elemento de video.
+                </video>
               </a>
               
               {/* Placeholder 6 - Video sitio_06.mp4 */}
