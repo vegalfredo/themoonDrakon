@@ -208,16 +208,25 @@ const Hero = () => {
                 </video>
               </a>
               
-              {/* Placeholder 6 - Video sitio_06.mp4 */}
-              <a 
-                href="https://vegalfredo.github.io/Curso-de-Verano-ZEFFATA/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="carousel-item absolute bg-gradient-to-b from-teal-600 to-cyan-600 rounded-xl shadow-2xl border-2 border-white/20 text-center flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-300 block" 
-                style={{animationDelay: '-8.5s'}}
-              >
-                <div className="text-white font-bold text-sm">sitio_06.mp4</div>
-              </a>
+                             {/* Video 6 - sitio_06.mp4 */}
+               <a 
+                 href="https://vegalfredo.github.io/consultorio-dental-plantilla/" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="carousel-item absolute rounded-xl shadow-2xl border-2 border-white/20 cursor-pointer hover:scale-110 transition-transform duration-300 block overflow-hidden" 
+                 style={{animationDelay: '-8.5s'}}
+               >
+                 <video 
+                   className="w-full h-full object-cover"
+                   autoPlay 
+                   loop 
+                   muted 
+                   playsInline
+                 >
+                   <source src="/sitio_06.mp4" type="video/mp4" />
+                   Tu navegador no soporta el elemento de video.
+                 </video>
+               </a>
               
               {/* Placeholder 7 - Video sitio_07.mp4 */}
               <a 
