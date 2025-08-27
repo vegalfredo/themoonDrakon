@@ -239,21 +239,7 @@ const Hero = () => {
           </div>
         </div>
 
-                  {/* Estadísticas (Conceptuales y basadas en tu propuesta de valor) */}
-          <div className="mt-20 grid grid-cols-3 gap-8 max-w-2xl">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">+ROI</div>
-              <div className="text-white/60 text-sm">Retorno de Inversión Demostrado</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">24/7</div>
-              <div className="text-white/60 text-sm">Ventas y Soporte Continuo</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">100%</div>
-              <div className="text-white/60 text-sm">Integración con tu Negocio</div>
-            </div>
-          </div>
+
 
           {/* Sección Quienes Somos */}
           <section id="quienes-somos" className="mt-32 py-20">
