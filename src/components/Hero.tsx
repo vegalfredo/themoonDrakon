@@ -106,8 +106,8 @@ const Hero = () => {
           </div>
 
           {/* Carrusel 3D de Sitios Web */}
-          <div className="relative">
-            <div className="carousel-container mx-auto">
+          <div className="flex flex-col items-center justify-center h-full">
+            <div className="carousel-container">
               {/* Video 1 */}
               <a 
                 href="https://vegalfredo.github.io/Curso-de-Verano-ZEFFATA/" 
@@ -231,8 +231,11 @@ const Hero = () => {
               </a>
             </div>
             
+            {/* Separador con espacio específico */}
+            <div className="h-[50px]"></div>
+            
             {/* Título del carrusel */}
-            <div className="text-center mt-6">
+            <div className="text-center">
               <h3 className="text-white font-semibold text-xl mb-2">Nuestros Proyectos</h3>
               <p className="text-white/60 text-sm">Sitios web que hemos desarrollado</p>
             </div>
@@ -264,16 +267,16 @@ const Hero = () => {
                   Nuestros sitios web no solo se ven increíbles, sino que están diseñados para 
                   generar resultados reales para tu negocio.
                 </p>
-                <div className="grid grid-cols-2 gap-6 pt-6">
-                  <div className="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
-                    <div className="text-3xl font-bold text-cyan-400 mb-2">+150%</div>
-                    <div className="text-white/70 text-sm">Aumento en conversiones</div>
-                  </div>
-                  <div className="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
-                    <div className="text-3xl font-bold text-purple-400 mb-2">24/7</div>
-                    <div className="text-white/70 text-sm">Ventas automáticas</div>
-                  </div>
-                </div>
+                                 <div className="grid grid-cols-2 gap-6 pt-6">
+                   <div className="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                     <div className="text-3xl font-bold text-cyan-400 mb-2">100%</div>
+                     <div className="text-white/70 text-sm">Responsivo</div>
+                   </div>
+                   <div className="text-center p-4 bg-white/5 rounded-xl backdrop-blur-sm border border-white/10">
+                     <div className="text-3xl font-bold text-purple-400 mb-2">Profesional</div>
+                     <div className="text-white/70 text-sm">Diseño moderno</div>
+                   </div>
+                 </div>
               </div>
               
               <div className="relative">

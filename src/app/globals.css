@@ -34,17 +34,26 @@ body {
 /* Estilos para el Carrusel 3D */
 .carousel-container {
   perspective: 400px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 300px;
   position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-item {
   animation: carousel-3d 12s linear infinite;
-  top: 50px;
-  left: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 120px;
   height: 180px;
+  transform-origin: center center;
+  margin-left: -60px;
+  margin-top: -90px;
 }
 
 /* Asegurar que los videos se muestren correctamente */
@@ -122,6 +131,47 @@ body {
 
 .carousel-item:nth-child(7):hover {
   box-shadow: 0 0 20px rgba(244, 63, 94, 0.8);
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .carousel-container {
+    perspective: 300px;
+    width: 100%;
+    max-width: 320px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-item {
+    width: 100px;
+    height: 150px;
+    margin-left: -50px;
+    margin-top: -75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    perspective: 250px;
+    width: 100%;
+    max-width: 280px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel-item {
+    width: 80px;
+    height: 120px;
+    margin-left: -40px;
+    margin-top: -60px;
+  }
 }
 
 
